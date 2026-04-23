@@ -1,4 +1,4 @@
-Workflow for downloading ALOS-2 (maybe also ALOS, haven't tested this) data ordered through gportal.jaxa.jp
+Workflow for downloading ALOS-2 (maybe also ALOS, haven't tested this) data ordered through [gportal.jaxa.jp](https://gportal.jaxa.jp/gpr/)
 
 1. Make an account at gportal.jaxa.jp. This allows you to download data from the "ALOS series Open and Free data". For ALOS-2, this consists af ScanSAR data in either L1.1 (the equivalent of SLC, huge files on the order of 10s of Gigabytes) or L2.2 format. L2.2 is GRD data that is calibrated and map projected.
 
