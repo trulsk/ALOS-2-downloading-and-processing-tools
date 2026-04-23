@@ -1,0 +1,2 @@
+# This is just an example of what should be contained in this file. Remove these lines before you start downloading, and replace with the path(s) to the file(s) you want to download
+# Example path: /process/scandl2/0BN8nxj16StXaJYkvMZERDzw
