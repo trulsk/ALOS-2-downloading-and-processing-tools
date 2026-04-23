@@ -10,7 +10,7 @@ Workflow for downloading ALOS-2 (maybe also ALOS, haven't tested this) data orde
 
 5. Congratulations! After a painstakingly slow download, you have now acquired ALOS-2 data!! If the data is in L2.2 format, scripts for processing the data can be found in the "processing" folder (to be added). If the data is in L1.1 format, you're on your own from here on.
 
-NB! The data consists of several files: HH and HV backscatter, incidence angle (the ...LIN.tif file), a quality mask file, .kml file of the scene outline and an .xml summary file. The way the script is set up, these are all dumped on a "common" ALOS-2 folder (kind of like a data lake). If you want one folder per image, the download script would have to be modified.
+NB! The data consists of several files: HH and HV backscatter, incidence angle (the ...LIN.tif file), a quality mask file, a .kml file of the scene outline and a .xml summary file. The way the script is set up, these are all dumped in a "common" ALOS-2 folder (kind of like a data lake). If you want one folder per image, the download script would have to be modified, which should be straight forward.
 
 NB!! Occasionally, the script fails to download some of the image files. In this case, I would recommend to just use a software like FileZilla to manually locate the missing files.
 
