@@ -8,13 +8,13 @@ Workflow for downloading ALOS-2 (maybe also ALOS, haven't tested this) data orde
 
 4. Add the path to the file "IDs.txt", as well as the path to the folder where you want to store the downloaded data in "sftp_download.sh". You also need to add your gportal credentials to the script. As of now, all of this has to be hardcoded in "sftp_download.sh", which should be improved. TBA. The file "IDs.txt" is just a temporary file used for generating the right filename, and can in practice be put anywhere. For simplicity, just store it in the same folder as "orders_list.txt". Both can be deleted after downloading (which also could be implemented automatically)
 
-5. Congratulations! After a painstakingly slow download, you have now acquired ALOS-2 data!! If the data is in L2.2 format, scripts for processing the data can be found in "path/to/ALOS-2/processing/scripts/" (to be added). If the data is in L1.1 format, you're on your own from here on.
+5. Congratulations! After a painstakingly slow download, you have now acquired ALOS-2 data!! If the data is in L2.2 format, scripts for processing the data can be found in the "processing" folder (to be added). If the data is in L1.1 format, you're on your own from here on.
 
 NB! The data consists of several files: HH and HV backscatter, incidence angle (the ...LIN.tif file), a quality mask file, .kml file of the scene outline and an .xml summary file. The way the script is set up, these are all dumped on a "common" ALOS-2 folder (kind of like a data lake). If you want one folder per image, the download script would have to be modified.
 
 NB!! Occasionally, the script fails to download some of the image files. In this case, I would recommend to just use a software like FileZilla to manually locate the missing files.
 
-NB!!! This script also works for data outside of the "ALOS series Open and Free data", like L1.5 data. However, I haven't used it much for this purpose, so it's not well tested. You might therefore run into unexpected problems, but I'm sure you'll figure it out :)
+NB!!! This script also works for data outside of the "ALOS series Open and Free data", like L1.5 ScanSAR data or data from other acquisition modes (like quad-polarimetric data). However, I haven't used it much for this purpose, so it's not well tested. You might therefore run into unexpected problems, but I'm sure you'll figure it out :)
 
 
 Created by Truls Karlsen
